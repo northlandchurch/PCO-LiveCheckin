@@ -11,7 +11,7 @@
 	<!-- Panel for Search -->
 	<div class="panel panel-primary">
 		<div class="panel-heading">
-			<H4 class="panel-title">New Select Current Check-in</H4>
+			<H4 class="panel-title">Select Current Check-in</H4>
 		</div>
 		<div class="panel-body">
 			<form id="Search" method="get" action="#" class="form-horizontal">
