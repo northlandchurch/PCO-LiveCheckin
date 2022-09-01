@@ -89,7 +89,7 @@
 
 
 	<div class="alert alert-warning" role="alert" style="display:none;">
-		Please add an email address <a href='mailto:giving@northlandchurch.net'>giving@northlandchurch.net</a> into your email list to avoid spam. 
+		Please add an email address <a href='mailto:developer@northlandchurch.net'>Administrator</a> into your email list to avoid spam. 
 	</div>
 	
 
@@ -137,7 +137,7 @@ $(document).ready(function () {
 		} 
 		catch(err) 
 		{
-			var msg = "An error occured in parsing JSON: " + err + ".<BR />Contact <a href='mailto:giving@northlandchurch.net'>Administrator</a>.";
+			var msg = "An error occured in parsing JSON: " + err + ".<BR />Contact <a href='mailto:developer@northlandchurch.net'>Administrator</a>.";
 			$("#rsErrorDiv").html(msg);
 			$("#rsErrorDiv").show();
 		}
@@ -160,7 +160,7 @@ $(document).ready(function () {
 		$("#checkin").html(checkin);
 	})
 	.fail(function(jqXHR, textStatus) {
-		var msg = "Request failed: " + textStatus + ".<BR />Contact <a href='mailto:keehong.pang@northlandchurch.net'>Administrator</a>.";
+		var msg = "Request failed: " + textStatus + ".<BR />Contact <a href='mailto:developer@northlandchurch.net'>Administrator</a>.";
 		$("#rsErrorDiv").html(msg);
 		$("#rsErrorDiv").show();
 	})
