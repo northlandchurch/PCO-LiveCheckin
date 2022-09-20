@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-	<title>Northland InSite: Finance</title>
+	<title>Northland PCO Live Check-In</title>
 
 
 	<!-- New CSS along with DataTables -->
